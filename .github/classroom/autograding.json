@@ -8,11 +8,18 @@
       "points": 20
     },
     {
-      "name": "Unit Tests",
+      "name": "In class exercises Unit Test",
       "setup": "",
-      "run": "mvn -q test",
+      "run": "mvn -B -ntp test -Dtest=StreamExerciseTest",
       "timeout": 20,
-      "points": 80
+      "points": 70
+    }
+    {
+      "name": "Homework Unit Test",
+      "setup": "",
+      "run": "mvn -B -ntp test -Dtest=StreamHomeworkTest",
+      "timeout": 20,
+      "points": 10
     }
   ]
 }
