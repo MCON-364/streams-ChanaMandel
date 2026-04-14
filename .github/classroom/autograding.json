@@ -13,7 +13,7 @@
       "run": "mvn -B -ntp test -Dtest=StreamExerciseTest",
       "timeout": 20,
       "points": 70
-    }
+    },
     {
       "name": "Homework Unit Test",
       "setup": "",
